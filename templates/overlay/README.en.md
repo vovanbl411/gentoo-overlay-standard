@@ -26,7 +26,9 @@ system requirements, and compatibility between packages where applicable.⟩
 ⟨Record the overlay revision, candidate, environment, commands or
 mechanism, scope, limitations, and validation results. Report what is
 known about metadata, resolver, preparation, build, and runtime separately.
-For existing tests, give the command, working directory, and prerequisites.⟩
+For existing tests, give the command, working directory, and prerequisites.
+Explain what each command does, which arguments matter, what result to
+expect, and any side effects.⟩
 
 ## Updates and rollback
 
@@ -38,7 +40,8 @@ versions and the order of operations.⟩
 
 ⟨Describe the manual or automated update process. For automation, give
 the inputs, triggers, CI, allowed publication paths, recovery procedure,
-and checks before manual owner acceptance.⟩
+and checks before manual owner acceptance. You can link to the current
+automation guide for details maintainers need.⟩
 
 ## Further reading
 
