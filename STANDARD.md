@@ -1,8 +1,8 @@
 # Gentoo Overlay Standard v0.2
 
-**Статус — проект для отдельного ревью владельцем.** Действует
-[Standard v0.1](https://github.com/vovanbl411/gentoo-overlay-standard/blob/becf8221ff745d722eb74c0e91435088c40b9ac7/STANDARD.md),
-принятый владельцем. [Предыдущий проект v0.2](https://github.com/vovanbl411/gentoo-overlay-standard/blob/b90ec059d72fd5d55e9b0f1e47ba11acac7089b0/STANDARD.md)
+**Статус — действующая версия, принятая владельцем.** Ранее действовал
+[Standard v0.1](https://github.com/vovanbl411/gentoo-overlay-standard/blob/becf8221ff745d722eb74c0e91435088c40b9ac7/STANDARD.md).
+[Предыдущий проект v0.2](https://github.com/vovanbl411/gentoo-overlay-standard/blob/b90ec059d72fd5d55e9b0f1e47ba11acac7089b0/STANDARD.md)
 сохраняет исходную формулировку для сверки.
 
 ## Область и термины

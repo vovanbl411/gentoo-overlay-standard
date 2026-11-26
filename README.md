@@ -10,10 +10,7 @@ Gentoo Overlay Standard помогает создавать и сопровож�
 самостоятельные реализации позволяют менять один оверлей без общей
 инфраструктуры и без влияния на работу остальных.
 
-Действует [принятый Standard v0.1][accepted]. [Standard v0.2](STANDARD.md)
-содержит требование S3 о сопровождаемости и остаётся проектом до решения
-владельца. Материалы в этом репозитории помогают подготовить и проверить
-внедрение v0.2.
+Действует [Standard v0.2][accepted], принятый владельцем.
 
 ## Выберите профиль
 
@@ -48,14 +45,23 @@ Gentoo Overlay Standard помогает создавать и сопровож�
    Зафиксируйте доказательства и решение владельца для выбранной версии
    стандарта и этого оверлея.
 
+## Внедрение Noctalia
+
+Изменения приняты в `main` ([PR #25][noctalia-pr25], [PR #26][noctalia-pr26]).
+По проверке от 26 ноября 2026 года (UTC) остаются открытыми hosted candidate
+validation, полное подтверждение effective settings и принятие по S2.
+
 ## Материалы
 
 - [Стандарт v0.2](STANDARD.md) — требования, применимость и критерии.
 - [Путь обновления и пример Noctalia](docs/update-workflow-reference.md) —
   как кандидат проходит от поиска источника до ручного принятия.
 - [Шаблоны](templates/README.md) — заготовки для оверлея и чек-лист внедрения.
-- [История и состояние внедрения](docs/adoption-history.md) — принятые
-  решения, предыдущий проект v0.2, аудиты и открытые вопросы пилота.
+- [Базовый аудит Phase 0][baseline] и
+  [эксперимент с расположением тестов](audits/test-layout.md).
 - [Правила работы с этим репозиторием](AGENTS.md).
 
-[accepted]: https://github.com/vovanbl411/gentoo-overlay-standard/blob/becf8221ff745d722eb74c0e91435088c40b9ac7/STANDARD.md
+[accepted]: https://github.com/vovanbl411/gentoo-overlay-standard/blob/f33d30233429ddd79dc1e770f1a58bf3d3b6074b/STANDARD.md
+[baseline]: https://github.com/vovanbl411/gentoo-overlay-standard/blob/638130a268da300cda9cd5ac3abb6e053691b409/audits/baseline.md
+[noctalia-pr25]: https://github.com/vovanbl411/noctalia-overlay/pull/25
+[noctalia-pr26]: https://github.com/vovanbl411/noctalia-overlay/pull/26
